@@ -1,0 +1,10 @@
+#V2
+(contract-call? .assigment u12345)
+(contract-call? .assigment get-date u12345)
+clear\n
+clear
+clear\nc
+(contract-call? .assigment get-date u12345)
+(contract-call? .assigment leap-year u2000)
+(contract-call? .assigment no-leap u1972 u2022)
+(contract-call? .assigment no-leap  u1972 u2022)
