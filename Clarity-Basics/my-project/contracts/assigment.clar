@@ -1,3 +1,7 @@
+(define-read-only (is-leap (year uint)) 
+
+  (if true (is-eq (mod year u4) u0) (is-eq (mod year u100) u0))
+)
 (define-read-only (get-date (timestamp uint))
   {Hours: (/ timestamp u3600),
   Minutes: (/ (mod timestamp u3600) u60),
